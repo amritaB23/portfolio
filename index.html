@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amrita Bera | Front-End Developer</title>
+  <meta name="description" content="Amrita Bera - Front-End / Full-Stack Developer (React, TypeScript, Node.js) based in Kolkata, India." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header / navigation ===== -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#top" class="logo">Amrita<span>.</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="btn btn-small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero container">
+      <p class="eyebrow">Hi, I'm Amrita Bera</p>
+      <h1>Front-End Developer building <span class="highlight">clean, fast</span> web apps with React &amp; TypeScript.</h1>
+      <p class="lead">
+        5 years in software development: 2 years building enterprise analytics dashboards in React and TypeScript,
+        and earlier full-stack work with Node.js, Express and MySQL. Based in Kolkata, India.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn">View my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+      <ul class="social">
+        <li><a href="https://github.com/amritaB23" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/amrita-bera-952993245" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:bera.23.amrita@gmail.com">Email</a></li>
+      </ul>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section container">
+      <h2 class="section-title">About me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a front-end developer at <strong>Soliva Technologies</strong>, where I build modules for
+            <strong>Aladdin</strong>, a Business Intelligence and Marketing Analytics platform. I enjoy turning
+            complex data into screens that are simple to use: data tables, filters, dashboards and reusable components.
+          </p>
+          <p>
+            Before that I worked as a full-stack developer on invoicing, e-commerce and e-learning products using
+            React, Node.js, Express, PHP and MySQL. I returned to development in 2025 after a planned career break
+            for family, and I'm now sharpening my full-stack skills by building and shipping my own projects.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><span class="fact-number">5</span> years in software development</li>
+          <li><span class="fact-number">2</span> years of enterprise React + TypeScript</li>
+          <li><span class="fact-number">8+</span> modules built on a BI platform</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Front-end</h3>
+          <ul class="tags">
+            <li>React 18</li><li>TypeScript</li><li>JavaScript (ES6+)</li><li>Redux Toolkit</li>
+            <li>React Router</li><li>Material UI</li><li>Recharts</li><li>HTML5</li><li>CSS3</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Back-end &amp; data</h3>
+          <ul class="tags">
+            <li>Node.js</li><li>Express.js</li><li>REST APIs</li><li>MySQL</li><li>PHP</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tools &amp; testing</h3>
+          <ul class="tags">
+            <li>Git</li><li>Postman</li><li>Vite</li><li>Vitest</li><li>Bitbucket</li><li>Sentry</li>
+          </ul>
+        </div>
+        <div class="card card-accent">
+          <h3>Currently learning</h3>
+          <ul class="tags">
+            <li>PostgreSQL</li><li>Playwright</li><li>GitHub Actions</li><li>AWS fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+
+      <article class="project-featured card">
+        <div class="project-preview" aria-hidden="true">
+          <!-- A small drawing of the app, made with HTML + CSS only -->
+          <div class="mock">
+            <div class="mock-bar"><span></span><span></span><span></span></div>
+            <div class="mock-body">
+              <div class="mock-title">Goa Trip</div>
+              <div class="mock-row"><i style="background:#0f766e"></i>Rahul → Priya<b>₹2,300</b></div>
+              <div class="mock-row"><i style="background:#f59e0b"></i>Amrita → Priya<b>₹1,425</b></div>
+              <div class="mock-row"><i style="background:#ec4899"></i>Sneha → Priya<b>₹900</b></div>
+              <div class="mock-chart"><span style="height:35%"></span><span style="height:95%"></span><span style="height:50%"></span><span style="height:60%"></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="eyebrow">Featured project</p>
+          <h3>SplitEasy: split expenses, settle up fast</h3>
+          <p>
+            An app for splitting shared costs with friends. Add expenses to a group, see who owes whom,
+            and get the <strong>fewest payments</strong> needed to clear every debt, with charts showing where the money went.
+          </p>
+          <ul class="points">
+            <li>Settle-up algorithm (greedy) as pure, unit-tested TypeScript functions</li>
+            <li>Redux Toolkit for state, saved to localStorage</li>
+            <li>Responsive Material UI interface with Recharts dashboards</li>
+            <li>Next: Node.js + Express + PostgreSQL API with JWT login</li>
+          </ul>
+          <ul class="tags">
+            <li>React</li><li>TypeScript</li><li>Redux Toolkit</li><li>Material UI</li><li>Recharts</li><li>Vitest</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/amritaB23/spliteasy" class="btn" target="_blank" rel="noopener">Live demo</a>
+            <a href="https://github.com/amritaB23/spliteasy" class="btn btn-outline" target="_blank" rel="noopener">Source code</a>
+          </div>
+        </div>
+      </article>
+
+      <h3 class="sub-title">Work projects</h3>
+      <div class="work-grid">
+        <article class="card">
+          <h4>Aladdin: BI &amp; Marketing Analytics platform</h4>
+          <p class="muted">Soliva Technologies · 2025 – present</p>
+          <p>Built the Brands module end to end, Search Terms analysis, Action Items, Workflow Logs and ETL Sequence
+            configuration, plus a reusable comments module with rich text, @mentions and emoji.</p>
+          <ul class="tags"><li>React 18</li><li>TypeScript</li><li>Redux Toolkit</li><li>Material UI</li><li>Recharts</li></ul>
+        </article>
+        <article class="card">
+          <h4>IRIS: call-center invoicing app</h4>
+          <p class="muted">Codaemon Softwares · 2019 – 2021</p>
+          <p>Tariff calculation by distance and service, invoices sent by email and SMS with payment links,
+            plus payment gateway, Google Places and call-tracking API integrations.</p>
+          <ul class="tags"><li>React</li><li>Node.js</li><li>Express</li><li>MySQL</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section container">
+      <h2 class="section-title">Experience</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">Jan 2025 – Present</p>
+          <h3>Front-End Developer · Soliva Technologies LLP</h3>
+          <p>Enterprise React + TypeScript modules, reusable UI components, REST API integration, dashboards,
+            code reviews and CI/CD on Bitbucket Pipelines.</p>
+        </li>
+        <li class="timeline-break">
+          <p class="when">Sep 2021 – Dec 2024</p>
+          <h3>Career break</h3>
+          <p>Planned break for childcare and family responsibilities.</p>
+        </li>
+        <li>
+          <p class="when">Oct 2019 – Aug 2021</p>
+          <h3>Software Developer · Codaemon Softwares, Kolkata</h3>
+          <p>Full-stack features with React, Node.js, Express and MySQL; social login and course search on WordPress.</p>
+        </li>
+        <li>
+          <p class="when">Jan 2019 – Sep 2019</p>
+          <h3>PHP Developer · Expro Lab Infotech, Kolkata</h3>
+          <p>Product, cart, seller and order management with SMS and email notifications (CodeIgniter, MySQL).</p>
+        </li>
+        <li>
+          <p class="when">Aug 2018 – Dec 2018</p>
+          <h3>PHP Trainee · Renu SB Creation, Kolkata</h3>
+          <p>User authentication and contact management (Core PHP, jQuery).</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section container contact">
+      <h2 class="section-title">Let's work together</h2>
+      <p class="lead">I'm looking for front-end and full-stack developer roles. The fastest way to reach me is email.</p>
+      <a href="mailto:bera.23.amrita@gmail.com" class="btn btn-large">bera.23.amrita@gmail.com</a>
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/amrita-bera-952993245" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/amritaB23" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Amrita Bera · Built with HTML, CSS and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
